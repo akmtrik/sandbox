@@ -1,5 +1,4 @@
 <%@ page contentType="text/html; charset=UTF-8" %>
-<%@ taglib prefix="module" tagdir="/WEB-INF/tags" %>
 <jsp:useBean id="content" class="jp.ac.o_hara.site.ContentBean" scope="request" />
 <!DOCTYPE html>
 <html lang="ja">
@@ -8,7 +7,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-<module:User />
-<jsp:include page="${ content.getContent() }" />
+<h1>test</h1>
+<div class=item1>></div>
 </body>
 </html>
